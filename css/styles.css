@@ -14,6 +14,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
     background-color: #ffffff;
+    letter-spacing: 0.03em;
 }
 a {
     text-decoration: none;
@@ -37,6 +38,7 @@ nav > .logo {
     color: #000000;
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.2;
     font-family: 'Raleway', sans-serif;  
 }
 
@@ -47,6 +49,7 @@ nav > .logo {
 .nav-title {
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
 }
 .current {
     color: var(--accent-color)
@@ -56,6 +59,7 @@ nav > .logo {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
 }
 
 .contacts a:hover,
@@ -73,13 +77,16 @@ nav > .logo {
     color: #FFFFFF;
     letter-spacing: 0.06em;
     background-color: var(--accent-color);
+    line-height: 1.36;
 }
 
 .hero-link {
     font-weight: 700;
     font-size: 16px; 
+    letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: var(--accent-color);
+    line-height: 1.875;
 
 }
 .hero-link:hover,
@@ -94,11 +101,13 @@ nav > .logo {
     font-size: 14px;
     color: var(--secondary-text-color);
     text-transform: uppercase;
+    line-height: 1.14;
 }
 
 .advantages-text {
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.7;
 }
 
 /* Чем мы занимаемся */
@@ -107,11 +116,13 @@ nav > .logo {
     font-weight: 700;
     font-size: 36px;
     color: var(--secondary-text-color);
+    line-height: 1.17;
 }
 
 .work-text {
     font-weight: 700;
     font-size: 14px;
+    line-height: 1.14;
     color: #FFFFFF;
     text-transform: uppercase;
     background-color: rgba(47, 48, 58, 0.8);
@@ -122,12 +133,14 @@ nav > .logo {
 .team-member {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.2;
     color: var(--secondary-text-color);
 }
 
 .team-job {
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.2;
     color: var(--primary-text-color);
 }
 
@@ -140,6 +153,7 @@ nav > .logo {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.2;
     font-family: "Raleway", sans-serif;  
 }
 .logo-footer > span {
@@ -156,11 +170,13 @@ nav > .logo {
     font-style: normal;
     color: #FFFFFF;
     font-size: 14px;
+    line-height: 1.7;
 }
 
 .footer .contacts {
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -169,6 +185,7 @@ nav > .logo {
     color: #FFFFFF;
     font-weight: bold;
     font-size: 14px;
+    line-height: 1.14;
     text-transform: uppercase;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -187,6 +204,7 @@ nav > .logo {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 16px;
+    line-height: 1.875;
     letter-spacing: 0.06em;
     background-color: var(--accent-color);
 }
@@ -194,13 +212,21 @@ nav > .logo {
 .caption {
     font-weight: 400;
     font-size: 12px;
+    line-height: 2;
     color: rgba(255, 255, 255, 0.4);
 }
 
 /* Тело страницы портфолио */
 
 .filter .fil-button {
-    background-color: var(--secondary-background-color)
+    background-color: var(--secondary-background-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 .fil-button:hover,
@@ -212,8 +238,10 @@ nav > .logo {
 .text-img {
     font-weight: 400;
     font-size: 18px;
+    line-height: 1.6;
     color: #FFFFFF;
     background-color: var(--accent-color);
+    
 }
 
 .list a:hover,
@@ -223,4 +251,12 @@ nav > .logo {
 
 .list .item {
     color: var(--primary-text-color);
+    line-height: 1.875;
+}
+
+.list-artical {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
